@@ -1,0 +1,23 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs/blocks'
+
+import { colors } from '../../shared/styles';
+
+<Meta title='Colors' />
+
+# Color
+
+<ColorPalette>
+  <ColorItem css={{height: '500px'}} title="Background" colors={[colors.background]} />
+  <ColorItem title="Current Line" colors={[colors.currentLine]} />
+  <ColorItem title="Foreground" colors={[colors.foreground]} />
+  <ColorItem title="Comment" colors={[colors.comment]} />
+  <ColorItem title="Cyan" colors={[colors.cyan]} />
+  <ColorItem title="Green" colors={[colors.green]} />
+  <ColorItem title="Orange" colors={[colors.orange]} />
+  <ColorItem title="Pink" colors={[colors.pink]} />
+  <ColorItem title="Purple" colors={[colors.purple]} />
+  <ColorItem title="Red" colors={[colors.red]} />
+  <ColorItem title="Yellow" colors={[colors.yellow]} />
+</ColorPalette>
+
+
